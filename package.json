@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "tina-cms-sandbox",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tinacms dev -c \"serve -p 3000 public\"",
+    "build": "tinacms build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.0.7",
+    "serve": "^14.2.0"
+  },
+  "dependencies": {
+    "tinacms": "^1.1.4"
+  }
+}
